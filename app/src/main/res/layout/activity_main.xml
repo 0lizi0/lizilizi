@@ -167,31 +167,7 @@
             />
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="100dp"
-            android:layout_height="60dp"
-            android:text="位置地址"
-            android:textSize="23dp"
-            android:gravity="center"
-            android:background="@color/white"
-            />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/white"
-            android:hint="选择位置地址 >"
-            android:gravity="right"
-            android:paddingTop="10dp"
-            android:paddingRight="15dp"
-            android:textColor="@color/gray"
-            />
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
