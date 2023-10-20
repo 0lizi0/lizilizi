@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/bgr"
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/red"
+        android:text="广告设置"
+        android:textSize="30dp"
+        android:textColor="@color/yellow"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/img"
+        android:text="点击上传链接跳转后界面"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="注:跳转后界面为海报图"
+        android:gravity="center"
+        android:textColor="@color/gray"
+        android:background="@color/white"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:divider="@color/black"
+        android:showDividers="end"
+        android:dividerPadding="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="链接标题"
+            android:textSize="23dp"
+            android:gravity="center"
+            android:background="@color/white"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:hint="例：了解详情请点击"
+            android:gravity="right"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="按钮文字"
+            android:textSize="23dp"
+            android:gravity="center"
+            android:background="@color/white"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:hint="例：点击进入"
+            android:gravity="right"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="194dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="是否展示门店信息"
+            android:textSize="23dp"
+            android:background="@color/white"
+            />
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="位置名称"
+            android:textSize="23dp"
+            android:gravity="center"
+            android:background="@color/white"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:hint="请输入位置名称"
+            android:gravity="right"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="位置电话"
+            android:textSize="23dp"
+            android:gravity="center"
+            android:background="@color/white"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:hint="请输入电话"
+            android:gravity="right"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="位置地址"
+            android:textSize="23dp"
+            android:gravity="center"
+            android:background="@color/white"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:hint="选择位置地址 >"
+            android:gravity="right"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/gray"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:hint="请输入链接其他小程序标题"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            />
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

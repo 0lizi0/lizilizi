@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UIDemo" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    </style>
+    <style name="myedittext" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/purple </item>
+    </style>
+
+    <style name="myButton" parent="">
+        <item name="colorButtonNormal">@color/gray</item>
+    </style>
+
+    <style name="Theme.UIDemo" parent="Base.Theme.UIDemo" />
+</resources>
